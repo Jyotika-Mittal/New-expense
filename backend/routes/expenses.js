@@ -1,0 +1,11 @@
+const express = require('express');
+const router = express.Router();
+const { addExpense, getExpenses, updateExpense, deleteExpense, detectCategory } = require('../controllers/expenseController');
+const { protect } = require('../middleware/auth');
+router.use(protect);
+router.get('/', getExpenses);
+router.post('/', addExpense);
+router.post('/detect-category', detectCategory);
+router.put('/:id', updateExpense);
+router.delete('/:id', deleteExpense);
+module.exports = router;
