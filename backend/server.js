@@ -18,7 +18,7 @@ app.use(cors({
     if (process.env.NODE_ENV !== 'production' || !origin) {
       callback(null, true);
     } else {
-      const allowed = ['https://expense-2-3bmk.onrender.com'];
+      const allowed = ['https://new-expense-1-i04d.onrender.com'];
       if (allowed.indexOf(origin) !== -1) {
         callback(null, true);
       } else {
