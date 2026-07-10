@@ -1,6 +1,33 @@
-# 💸 Spendly — Smart Expense Tracker
+<div align="center">
 
-A full-stack **AI-powered expense tracker** with auto category detection, monthly insights with charts, smart overspending alerts, and a saving goals system.
+# 💸 Spendly
+### Smart Expense Tracker
+
+**A full-stack AI-powered expense tracker with auto category detection, monthly insights with charts, smart overspending alerts, and a saving goals system.**
+
+</div>
+
+---
+
+## 🖼 Screenshots
+
+<div align="center">
+
+**Dashboard — Monthly Overview**
+
+<img src="./assets/dashboard-overview.png" alt="Spendly dashboard with balance, income, expenses, savings rate, monthly overview chart, and top categories" width="850"/>
+
+*At a glance: total balance, monthly income vs. expenses, savings rate, a 6-month income/expense trend, and top spending categories.*
+
+<br/>
+
+**Saving Goals**
+
+<img src="./assets/saving-goals.png" alt="Spendly saving goals page with overall progress and individual goal tracking" width="850"/>
+
+*Track saving goals with visual progress bars, deadlines, and quick actions to add savings, edit, or delete a goal.*
+
+</div>
 
 ---
 
@@ -201,4 +228,8 @@ NODE_ENV=development
 
 ---
 
+<div align="center">
+
 Made with ❤️ — Spendly MVP v1.0
+
+</div>
