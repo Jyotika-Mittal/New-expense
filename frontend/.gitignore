@@ -1,0 +1,4 @@
+cd frontend
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
+echo ".env" >> .gitignore
